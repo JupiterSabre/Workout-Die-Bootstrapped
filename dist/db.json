@@ -1,0 +1,85 @@
+{
+
+"workouts": [
+  {
+    "id": 1,
+    "workout": "15 PUSH UPS",
+    "workout_focus": "Upper Body",
+    "img": "src/Pushup_GIF.gif",
+    "timer_on": false,
+    "time_duration": ""
+  },
+  {
+    "id": 2,
+    "workout": "10 BURPEES",
+    "workout_focus": "Upper Body, Lower Body, Core",
+    "image": "src/burpee_GIF.gif",
+    "timer_on": false,
+    "time_duration": ""
+  },
+  {
+    "id": 3,
+    "workout": "25 CRUNCHES",
+    "workout_focus": "Upper Body",
+    "img": "src/burpee GIF.gif",
+    "timer_on": false,
+    "time_duration": ""
+  },
+  {
+    "id": 4,
+    "workout": "WATER BREAK (30 SECONDS)",
+    "workout_focus": "Hydrate!",
+    "img": "hsrc/hydration_gif.gif",
+    "timer_on": true,
+    "time_duration": 3000
+  },
+  {
+    "id": 5,
+    "workout": "RUN FOR 2 MINUTES",
+    "workout_focus": "Cardio",
+    "img": "src/running_GIF.gif",
+    "timer_on": true,
+    "time_duration": 120000
+  },
+  {
+    "id": 6,
+    "workout": "30 MOUNTAIN CLIMBERS",
+    "workout_focus": "Upper Body, Lower Body",
+    "img": "src/mountain_climber_GIF.gif",
+    "timer_on":  false,
+    "time_duration": ""
+  },
+  {
+    "id": 7,
+    "workout": "1 MINUTE WALL SIT",
+    "workout_focus": "Lower Body",
+    "img": "src/wall_sit_GIF.gif",
+    "timer_on": true,
+    "time_duration": 600
+  },
+  {
+    "id": 8,
+    "workout": "20 SQUATS",
+    "workout_focus": "Lower Body",
+    "img": "src/squat_GIF.gif",
+    "timer_on": false,
+    "time_duration": ""
+  },
+  {
+    "id": 7,
+    "workout": "PLANK (30 SECONDS)",
+    "workout_focus": "Upper Body",
+    "img": "src/plank_GIF.gif",
+    "timer_on": true,
+    "time_duration": 300
+  },
+  {
+    "id": 8,
+    "workout": "35 JUMPING JACKS",
+    "workout_focus": "Upper Body, Lower Body, Cardio",
+    "img": "src/jumping_jack_GIF.gif",
+    "timer_on": false,
+    "time_duration": ""
+  }
+]
+}
