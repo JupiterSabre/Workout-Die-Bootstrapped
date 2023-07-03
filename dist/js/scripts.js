@@ -6,6 +6,29 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
+
+
+
 fetch("http://localhost:3000/workouts")
 .then(res => res.json())
-.then(console.log("Booyah"))
+.then(workOutType => console.log(workOutType))
+
+
+
+
+// DECLARED VARIABLES AND EVENT LISTENER FOR DIE ROLL
+const dieImg = document.querySelector("#die")
+const dieSpin = [
+    { transform: "rotate(360deg)" }
+]
+const dieTiming = {
+    duration: 2000
+    }
+
+
+dieImg.addEventListener("dblclick", (e)=> {
+    e.preventDefault()
+    console.log("Beep Boop");
+    dieImg.animate(dieSpin,dieTiming)
+  
+  },true)
