@@ -10825,6 +10825,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background: url("https://dummyimage.com/1920x1080/dee2e6/6c757d.jpg") no-repeat center center fixed;
+  background: url("https://images.pexels.com/photos/7135951/pexels-photo-7135951.jpeg") no-repeat center center fixed;
   background-size: cover;
+  color: white;
 }
